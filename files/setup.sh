@@ -42,6 +42,12 @@ else
 	echo -e "\e[92mStarting Harbor Configuration ..." > /dev/console
 	. /root/setup/setup-03-harbor.sh
 
+    echo -e "\e[92mStarting Tanzu package migration ..." > /dev/console
+	. /root/setup/setup-04-packages.sh
+
+	echo -e "\e[92mStarting Tanzu CLI installation ..." > /dev/console
+	. /root/setup/setup-05-tanzu.sh
+
 	echo -e "\e[92mCustomization Completed ..." > /dev/console
 
 	# Clear guestinfo.ovfEnv

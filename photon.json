@@ -65,6 +65,27 @@
     },
     {
       "type": "shell",
+      "expect_disconnect": true,
+      "scripts": [
+        "scripts/photon-carvel.sh"
+      ]
+    },
+    {
+      "type": "shell",
+      "expect_disconnect": true,
+      "scripts": [
+        "scripts/photon-tanzu.sh"
+      ]
+    },
+    {
+      "type": "shell",
+      "expect_disconnect": true,
+      "scripts": [
+        "scripts/photon-packages.sh"
+      ]
+    },
+    {
+      "type": "shell",
       "pause_before": "20s",
       "scripts": [
         "scripts/photon-cleanup.sh"
@@ -99,6 +120,16 @@
       "type": "file",
       "source": "files/setup-03-harbor.sh",
       "destination": "/root/setup/setup-03-harbor.sh"
+    },
+    {
+      "type": "file",
+      "source": "files/setup-04-packages.sh",
+      "destination": "/root/setup/setup-04-packages.sh"
+    },
+    {
+      "type": "file",
+      "source": "files/setup-05-tanzu.sh",
+      "destination": "/root/setup/setup-05-tanzu.sh"
     }
   ],
   "post-processors": [
