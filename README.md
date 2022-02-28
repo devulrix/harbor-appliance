@@ -4,7 +4,7 @@
 
 * MacOS or Linux Desktop
 * vCenter Server or Standalone ESXi host 6.x or greater
-* [VMware OVFTool](https://www.vmware.com/support/developer/ovf/)
+* [VMware OVFTool](https://developer.vmware.com/web/tool/4.4.0/ovf)
 * [Packer](https://www.packer.io/intro/getting-started/install.html)
 
 
@@ -39,4 +39,4 @@ Step 3 - Start the build by running the build script which simply calls Packer a
 ./build.sh
 ````
 
-If the build was successful, you will find the Harbor OVA located in `output-vmware-iso/VMware_Harbor_Appliance_2.3.0.ova`
+If the build was successful, you will find the Harbor OVA located in `output-vmware-iso/VMware_Harbor_Appliance_2.4.1.ova`
