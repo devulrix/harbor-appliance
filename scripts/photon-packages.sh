@@ -5,9 +5,9 @@
 
 echo ' > Downloading kapp-controller...'
 mkdir images
-docker pull projects.registry.vmware.com/tkg/kapp-controller:v0.23.0_vmware.1
-docker save projects.registry.vmware.com/tkg/kapp-controller:v0.23.0_vmware.1 | gzip > images/kapp-controller-0.23.0.tar.gz
-docker rmi projects.registry.vmware.com/tkg/kapp-controller:v0.23.0_vmware.1
+docker pull projects.registry.vmware.com/tkg/kapp-controller:v0.25.0_vmware.1
+docker save projects.registry.vmware.com/tkg/kapp-controller:v0.25.0_vmware.1 | gzip > images/kapp-controller-0.25.0.tar.gz
+docker rmi projects.registry.vmware.com/tkg/kapp-controller:v0.25.0_vmware.1
 docker pull projects.registry.vmware.com/tkg/kapp-controller:v0.30.0_vmware.1
 docker save projects.registry.vmware.com/tkg/kapp-controller:v0.30.0_vmware.1 | gzip > images/kapp-controller-0.30.0.tar.gz
 docker rmi projects.registry.vmware.com/tkg/kapp-controller:v0.30.0_vmware.1
