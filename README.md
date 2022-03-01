@@ -16,7 +16,7 @@ esxcli system settings advanced set -o /Net/GuestIPHack -i 1
 Step 1 - Clone the git repository
 
 ```
-git clone https://github.com/lamw/harbor-appliance.git
+git clone https://github.com/devulrix/harbor-appliance
 ```
 
 Step 2 - Edit the `photon-builder.json` file to configure the vSphere endpoint for building the Harbor appliance
