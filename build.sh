@@ -1,4 +1,4 @@
-#!/bin/bash -x
+  #!/bin/bash -x
 
 echo "Building Harbor OVA Appliance ..."
 rm -f output-vmware-iso/*.ova
